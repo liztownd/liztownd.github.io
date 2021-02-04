@@ -1,11 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="icon" type="image/png" href="images/lt-favicon.png">
+
+  <!-- Link to Bootstrap file -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="assets/style.css">
+
 </head>
+
+
 <body>
-    This is my website
+
+  <div class="container-fluid px-0">
+
+    <!-- Header and navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark mb-3">
+      <div class="container-lg">
+
+        <!-- Header -->
+
+        <span class="navbar-brand h2" id="brand">Liz Townsend</span>
+
+        <!-- Navigation  -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto d-flex">
+            <ul class="navbar-nav align-items-end">
+              <li class="navbar-item">
+                <a class="nav-link active" aria-current="page" href="index.html">About</a>
+              </li>
+              <li class="navbar-item justify-content-end ">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="navbar-item justify-content-end ">
+                <a class="nav-link" href="contact.html">Contact/Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+
+    <main class="container-lg mx-auto mb-5 overflow-auto">
+      <div class="row">
+        <div class="col-12">
+          <!-- <h1 class="text-dark p-4">About Me</h1> -->
+        </div>
+        <!-- <hr class="w-75"> -->
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <img src="images/Liz.jpg" class="m-4 img-fluid rounded-circle" alt="Liz Townsend">
+          </div>
+          <div class="col-md-8 col-sm-12 m-4">
+            <p>Liz Townsend is a Full Stack Web Developer with a background in Graphic Design. She holds a BA in Studio
+              Art from UMKC
+              and a certificate in Full Stack Web Development from KU Coding Boot Camp. During the Boot Camp she created
+              several APIs utilizing JS dynamically created content. Using skills gained in the Boot Camp she designed a
+              responsive website for a yearly tradeshow. A dedicated employee, she has been
+              in her current position for over 15 years, and is highly organized and maintains brand consistency across
+              all platforms. A lifelong learner, she is always eager to expand her skill set and master new techniques
+              and
+              looks forward to merging her design aesthetic with dynamic content to create elegant, eye-catching,
+              fully integrated web sites.
+            </p>
+            <p>She has a daughter and 2 cats and volunteers with Girl Scouts and the PTA. In her spare time she likes to
+              knit and read.
+            </p>
+            <p>Some of her prior Web designs include <a href="http://furologykc.com" target="_blank">Furology</a>, <a
+                href="http://www.ipmskansascity.com" target="_blank">Kansas City IPMS</a> and <a
+                href="http://liztowndesign.com" target="_blank">Liz
+                Town Design</a>.
+            </p>
+            <!-- <p>She can be reached at <a href="mailto:liztown@gmail.com">liztown@gmail.com</a>, GitHub profile: <a
+                href="https://github.com/liztownd" target="_blank">liztownd</a>.
+            </p> -->
+
+
+            <!-- Social Media Links-->
+            <!-- <p>
+              <a href="http://facebook.com/liz.townsend.927" target="_blank"> <img src="images/fb.png"
+                  alt="Facebook Icon" width="30px" class="m-2"> </a>
+              <a href="mailto:liztown@gmail.com"> <img src="images/email.png" alt="Email Icon" width="30px" class="m-2">
+              </a>
+              <a href="https://github.com/liztownd" target="_blank"> <img src="images/gh.png" alt="GitHub Icon"
+                  width="30px" class="m-2"> </a>
+              <a href="http://twitter.com/liztownmo" target="_blank"> <img src="images/twitter.png" alt="Twitter Icon"
+                  width="30px" class="m-2"> </a>
+              <a href="https://www.linkedin.com/in/elizabeth-townsend-84b878169/" target="_blank"> <img
+                  src="images/li.png" alt="Linked In Icon" width="30px" class="m-2"> </a>
+
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer - I tried making it fixed but it was not aesthetically pleasing so I took it out -->
+    <footer class="p-3 text-white stickyFooter">
+        Copyright &#169; 2021 Liz Townsend
+
+    </footer>
+
+  <!-- Link to Javascript file -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>

@@ -1,0 +1,86 @@
+body {
+    background-image: url("../images/bg-2.png");
+    background-color: #F4F4D8;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-repeat: none; */
+}
+
+.dropdown-toggle { 
+    background-color: #bf4d28;
+    padding: 10px;
+ }
+
+main {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #bf4d28;
+    border-top: 10px solid #e6ac27;
+}
+
+a {
+    color: #80bca3;
+}
+
+a:hover {
+    color: #bf4d28;
+}
+
+h2 {
+    color: #80bca3 
+}
+
+.card:hover {
+    box-shadow: 5px 5px #bf4d28, 10px 10px #e6ac27, 15px 15px #f6f7c6, 20px 20px #80bca3;
+
+}
+
+.contactDiv {
+    opacity: .9;
+}
+
+.resume {
+    max-height: 300px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.resume:hover{
+    box-shadow: 5px 5px #bf4d28, 10px 10px #e6ac27, 15px 15px #f6f7c6, 20px 20px #80bca3;
+    /* opacity: .5; */
+}
+
+.stickyFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+.boxShadow {
+    box-shadow: 5px 5px #bf4d28, 10px 10px #e6ac27, 15px 15px #f6f7c6, 20px 20px #80bca3;
+}
+
+#brand {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+
+ 
+@media only screen and (min-width: 2560px) {
+    body {
+        background-size: 1600px;
+        background-position-x: center;
+
+    }
+    footer {
+        width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

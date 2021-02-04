@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="icon" type="image/png" href="images/lt-favicon.png">
+
+
+  <!-- Link to Bootstrap css -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+
+
+</head>
+
+<!-- Background image - I did need to use an inline style tag to get the background image - it's the only personal style tag in the whole page! -->
+
+<body>
+
+  <!-- Header and Navigation -->
+
+  <div class="container-lg p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <span class="navbar-brand h2" id="brand">Liz Townsend</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto d-flex">
+            <ul class="navbar-nav align-items-end">
+              <li class="navbar-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact/Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-sm bg-light mx-auto my-5 overflow-auto text-center contactDiv">
+      <div>
+        <!-- <h2 class="p-4 text-info">Connect</h1> -->
+          <!-- <hr class="w-75"> -->
+
+          <!-- form -->
+
+          <!-- <form class="p-2">
+          <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" id="Name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="InputEmail">Email address</label>
+            <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="Textarea">Message</label>
+            <textarea class="form-control" id="Textarea" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-info p-3 mb-3">Submit</button>
+        </form> -->
+        <div class="row">
+        <div class="col-6">
+          <h2 class="p-4 text-info">Connect</h1>
+
+          <p>
+            <!-- <a href="http://facebook.com/liz.townsend.927" target="_blank"> <img src="images/fb.png"
+              alt="Facebook Icon" width="30px" class="m-2"> </a>  -->
+            <img src="images/email.png" alt="Email Icon" width="30px" class="m-2">
+            Email: <a href="mailto:liztown@gmail.com"> liztown@gmail.com</a>
+          </p>
+          <p>
+            <img src="images/gh.png" alt="GitHub Icon" width="30px" class="m-2"> Git Hub: <a
+              href="https://github.com/liztownd" target="_blank"> liztownd</a>
+          </p>
+          <p>
+            <img src="images/li.png" alt="Linked In Icon" width="30px" class="m-2">
+            LinkedIn: <a href="https://www.linkedin.com/in/elizabeth-townsend-84b878169/" target="_blank"> Liz
+              Townsend</a>
+          </p>
+
+          <p>
+            <img src="images/twitter.png" alt="Twitter Icon" width="30px" class="m-2"> Twitter: <a
+              href="http://twitter.com/liztownmo" target="_blank"> liztownmo</a>
+          </p>
+
+          
+        </div>
+        <div class="col-6">
+          <h2 class="p-4 text-info">Resume</h1>
+
+         <a href="images/LTownsend.pdf" target="_blank"> <img src="images/LTownsend.jpg" class="resume mb-4"> </a>
+        </div>
+      </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Footer - I tried making it fixed but it was not aesthetically pleasing so I took it out -->
+
+  <footer class="p-3 text-white stickyFooter">      
+    Copyright &#169; 2021 Liz Townsend
+
+  </footer>
+
+  <!-- Link to javascript -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
