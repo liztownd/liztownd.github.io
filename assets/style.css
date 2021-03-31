@@ -30,7 +30,11 @@ h2 {
     color: #80bca3 
 }
 
-.card:hover {
+.about-h5 {
+    color: #80bca3 
+}
+
+.port-card:hover {
     box-shadow: 5px 5px #bf4d28, 10px 10px #e6ac27, 15px 15px #f6f7c6, 20px 20px #80bca3;
 
 }
@@ -55,6 +59,13 @@ h2 {
     bottom: 0;
     width: 100%;
   }
+
+.card-img-top {
+    /* width:  300px; */
+    height: 200px;
+    object-fit: cover;
+}
+  
 
 
 #brand {

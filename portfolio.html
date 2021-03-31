@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
 
-  <link rel="icon" type="image/png" href="images/lt-favicon.png">
+  <link rel="icon" type="image/png" href="images/lt-favicon.ico">
 
   <!-- Link to Bootstrap file -->
 
@@ -15,8 +15,6 @@
   <link rel="stylesheet" href="assets/style.css">
 
 </head>
-
-<!-- Background image - I did need to use an inline style tag to get the background image - it's the only personal style tag in the whole page! -->
 
 <body>
 
@@ -58,14 +56,32 @@
         </div>
       </div> -->
       <div class="container mx-auto p-3 my-3">
+        <h2 class="p-3 text-light">Portfolio</h2>
+
         <div class="row mx-auto">
 
           <div class="col-md-4 col-sm-12 mb-4">
-            <div class="card h-100" >
+            <div class="card h-100 port-card" >
+              <img src="images/devlr.png" class="card-img-top" alt="fanPagR">
+              <div class="card-body">
+                <h5 class="card-title">devlr</h5>
+                <p class="card-text">Twitter + GitHub = devlr, a social networking site for devs. Express server used to deliver data from an SQL database and the GitHub API using jQuery, handlebars, and CSS variables to update content dynamically.</p>
+              </div>
+              <div class="card-body">
+                <a href="https://devlr.herokuapp.com" target="_blank" class="card-link">Deployed Application</a>
+                <a href="https://github.com/liztownd/devlr" target="_blank" class="card-link">GitHub Repo</a>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-12 mb-4">
+            <div class="card h-100 port-card" >
               <img src="images/burger.png" class="card-img-top" alt="Day Planner">
               <div class="card-body">
                 <h5 class="card-title">Eat That Burger! App</h5>
-                <p class="card-text">An Express.js server, with express-handlebars-based html, accessing a mySQL database using ORM and MVC architecture, deployed to Heroku.</p>
+                <p class="card-text">A simple burger tracker built with an Express.js server, with express-handlebars-based html, accessing an SQL database using ORM and MVC architecture, deployed to Heroku.</p>
               </div>
               <div class="card-body">
                 <a href="https://mighty-citadel-87170.herokuapp.com/" target="_blank" class="card-link">Deployed Application</a>
@@ -77,11 +93,11 @@
 
 
           <div class="col-md-4 col-sm-12 mb-4">
-            <div class="card h-100" >
+            <div class="card h-100 port-card" >
               <img src="images/fanPagR.png" class="card-img-top" alt="fanPagR">
               <div class="card-body">
                 <h5 class="card-title">fanPagR</h5>
-                <p class="card-text">A custom fan page generator - collaborative project.</p>
+                <p class="card-text">A custom fan page generator utilizing jQuery to populate dynamic content from multiple third-party APIs and various CSS theme files.</p>
               </div>
               <div class="card-body">
                 <a href="https://cmoss703.github.io/fanPagR/" target="_blank" class="card-link">Deployed Application</a>
@@ -90,22 +106,6 @@
               </div>
             </div>
           </div>
-
-          <div class="col-md-4 col-sm-12 mb-4">
-            <div class="card h-100" >
-              <img src="images/weather-dashboard.png" class="card-img-top" alt="Weather Dashboard">
-              <div class="card-body">
-                <h5 class="card-title">Weather Dashboard</h5>
-                <p class="card-text">A JavaScript based weather dashboard.</p>
-              </div>
-              <div class="card-body">
-                <a href="https://liztownd.github.io/weather-app/" target="_blank" class="card-link">Deployed Application</a>
-                <a href="https://github.com/liztownd/weather-app" target="_blank" class="card-link">GitHub Repo</a>
-
-              </div>
-            </div>
-          </div>
-
 
         </div>
         <!-- <div class="w-100 m-3"></div> -->
@@ -126,7 +126,7 @@
 
           </div> -->
 
-          <div class="col-md-4 col-sm-12 mb-4">
+          <!-- <div class="col-md-4 col-sm-12 mb-4">
             <div class="card h-100" >
               <img src="images/colorBlocks.png" class="card-img-top" alt="Day Planner">
               <div class="card-body">
@@ -139,11 +139,26 @@
 
               </div>
             </div>
+          </div> -->
+
+          <div class="col-md-4 col-sm-12 mb-4">
+            <div class="card h-100 port-card" >
+              <img src="images/weather-dashboard.png" class="card-img-top" alt="Weather Dashboard">
+              <div class="card-body">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text">A JavaScript based weather dashboard accessing the Open Weather API utilizing Bootstrap for styling and JavaScript and jQuery to serve dynamic content.</p>
+              </div>
+              <div class="card-body">
+                <a href="https://liztownd.github.io/weather-app/" target="_blank" class="card-link">Deployed Application</a>
+                <a href="https://github.com/liztownd/weather-app" target="_blank" class="card-link">GitHub Repo</a>
+
+              </div>
+            </div>
           </div>
 
 
           <div class="col-md-4 col-sm-12 mb-4">
-            <div class="card h-100" >
+            <div class="card h-100 port-card" >
               <img src="images/ipms.png" class="card-img-top" alt="IPMS Website">
               <div class="card-body">
                 <h5 class="card-title">Tradeshow Website</h5>
@@ -157,7 +172,7 @@
           </div>
 
           <div class="col-md-4 col-sm-12 mb-4">
-            <div class="card h-100" >
+            <div class="card h-100 port-card" >
               <img src="images/tom-1.jpg" class="card-img-top" alt="Tomweiser Logo">
               <div class="card-body">
                 <h5 class="card-title">Graphic Design Portfolio</h5>
@@ -175,7 +190,7 @@
     </main>
   </div>
 
-    <!-- Footer - I tried making it fixed but it was not aesthetically pleasing so I took it out -->
+    <!-- Footer   -->
 
     <footer class="p-3 text-white">
         Copyright &#169; 2021 Liz Townsend
