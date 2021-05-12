@@ -17,4 +17,4 @@ When the "Shuffle Projects" button is pressed, the array of projects is shuffled
 
 ## Deployment
 
-The app is deployed at <a href="https://liztownd.github.io/react-portfolio/#/">https://liztownd.github.io/react-portfolio/#/</a>.
+The app is deployed at <a href="https://liztownd.github.io">https://liztownd.github.io</a>.
