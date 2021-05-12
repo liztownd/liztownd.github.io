@@ -4,7 +4,7 @@ body {
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     /* background-repeat: none; */
 }
 
@@ -16,6 +16,11 @@ main {
 footer {
     background-color: #bf4d28;
     border-top: 10px solid #e6ac27;
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 a {
