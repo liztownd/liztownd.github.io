@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 function Projects() {
     const [projects, setProjects] = useState([
         {
+            title: 'devlr v2',
+            image: 'assets/images/devlr2.png',
+            description: 'devlr v2: devlr 1.0 Reactified: a social networking site for devs. MERN stack utilizing Context API and Reducer to manage state with brand new features: like & comment on posts, followers/following network, editable profiles, and more!',
+            gitUrl: 'https://github.com/brandyquinlan/devlr',
+            deployUrl: 'https://devlrapp.herokuapp.com',
+        },
+        {
             title: 'React Employee Directory',
             image: 'assets/images/sort.png',
             description: 'A React Employee Directory, populated with data from the randomuser.me API using hooks for sort and filter functionality.',
@@ -11,9 +18,9 @@ function Projects() {
             deployUrl: 'https://liztownd.github.io/employee-directory/',
         },
         {
-            title: 'devlr',
+            title: 'devlr BETA',
             image: 'assets/images/devlr.png',
-            description: 'Twitter + GitHub = devlr, a social networking site for devs. Express server used to deliver data from an SQL database and the GitHub API using jQuery, handlebars, and CSS variables to update content dynamically.',
+            description: 'devlr v1: Twitter + GitHub = devlr, a social networking site for devs. Express server used to deliver data from an SQL database and the GitHub API using jQuery, handlebars, and CSS variables to update content dynamically.',
             gitUrl: 'https://github.com/liztownd/devlr',
             deployUrl: 'https://devlr.herokuapp.com',
         },
@@ -30,13 +37,6 @@ function Projects() {
             description: 'A custom fan page generator utilizing jQuery to populate dynamic content from multiple third-party APIs and various CSS theme files.',
             gitUrl: 'https://github.com/cmoss703/fanPagR',
             deployUrl: 'https://cmoss703.github.io/fanPagR/',
-        },
-        {
-            title: 'Weather Dashboard',
-            image: 'assets/images/weather-dashboard.png',
-            description: 'A JavaScript based weather dashboard accessing the Open Weather API utilizing Bootstrap for styling and JavaScript and jQuery to serve dynamic content.',
-            gitUrl: 'https://github.com/liztownd/weather-app',
-            deployUrl: 'https://liztownd.github.io/weather-app/',
         },
         {
             title: 'Tradeshow Website',

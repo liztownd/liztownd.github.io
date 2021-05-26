@@ -2,7 +2,7 @@
 
 function Skills() {
     return (
-        <div>
+        <div className="mb-4">
             <h2 className="p-1 mt-2">Skills</h2>
             <div className="row mt-3">
                 <div className="col-md-4 col-sm-12 mb-4">
