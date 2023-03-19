@@ -8,7 +8,7 @@ function Projects() {
             image: 'assets/images/devlr2.png',
             description: 'devlr v2: devlr 1.0 Reactified: a social networking site for devs. MERN stack utilizing Context API and Reducer to manage state with brand new features: like & comment on posts, followers/following network, editable profiles, and more!',
             gitUrl: 'https://github.com/brandyquinlan/devlr',
-            deployUrl: 'https://devlrapp.herokuapp.com',
+            deployUrl: false,
         },
         {
             title: 'React Employee Directory',
@@ -22,15 +22,9 @@ function Projects() {
             image: 'assets/images/devlr.png',
             description: 'devlr v1: Twitter + GitHub = devlr, a social networking site for devs. Express server used to deliver data from an SQL database and the GitHub API using jQuery, handlebars, and CSS variables to update content dynamically.',
             gitUrl: 'https://github.com/liztownd/devlr',
-            deployUrl: 'https://devlr.herokuapp.com',
+            deployUrl: false,
         },
-        {
-            title: 'Eat That Burger! App',
-            image: 'assets/images/burger.png',
-            description: 'A simple burger tracker built with an Express.js server, with express-handlebars-based html, accessing an SQL database using ORM and MVC architecture, deployed to Heroku.',
-            gitUrl: 'https://github.com/liztownd/burger',
-            deployUrl: 'https://mighty-citadel-87170.herokuapp.com/',
-        },
+
         {
             title: 'fanPagR',
             image: 'assets/images/fanPagR.png',
@@ -42,8 +36,15 @@ function Projects() {
             title: 'Tradeshow Website',
             image: 'assets/images/ipms.png',
             description: 'Website for a yearly tradeshow: International Paper Money Show.',
-            gitUrl: false,
+            gitUrl: 'https://github.com/liztownd/kc-ipms',
             deployUrl: 'http://www.ipmskansascity.com',
+        },
+        {
+            title: 'Alcott Arts Center Website',
+            image: 'assets/images/alcott.png',
+            description: 'Website for a non-profit arts organization.',
+            gitUrl: false,
+            deployUrl: 'https://www.alcottartscenter.org/',
         },
     ]);
 
@@ -54,6 +55,13 @@ function Projects() {
             description: 'A React Employee Directory, populated with data from the randomuser.me API using hooks for sort and filter functionality.',
             gitUrl: 'https://github.com/liztownd/employee-directory',
             deployUrl: 'https://liztownd.github.io/employee-directory/',
+        },
+        {
+            title: 'Alcott Arts Center Website',
+            image: 'assets/images/alcott.png',
+            description: 'Website for a non-profit arts organization.',
+            gitUrl: false,
+            deployUrl: 'https://www.alcottartscenter.org/',
         },
         {
             title: 'devlr',
@@ -90,13 +98,13 @@ function Projects() {
             gitUrl: false,
             deployUrl: 'http://www.ipmskansascity.com',
         },
-        {
-            title: 'Graphic Design Portfolio',
-            image: 'assets/images/tom-1.jpg',
-            description: 'Liz has been a graphic designer since 2001.',
-            gitUrl: false,
-            deployUrl: 'http://www.liztowndesign.com',
-        },
+        // {
+        //     title: 'Graphic Design Portfolio',
+        //     image: 'assets/images/tom-1.jpg',
+        //     description: 'Liz has been a graphic designer since 2001.',
+        //     gitUrl: false,
+        //     deployUrl: 'http://www.liztowndesign.com',
+        // },
         {
             title: 'Code Quiz',
             image: 'assets/images/question.png',

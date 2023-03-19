@@ -10,12 +10,13 @@ function ProjectCard({ title, description, image, gitUrl, deployUrl }) {
                 <p className="card-text">{description}</p>
             </div>
             <div className="card-body">
-                <a href={deployUrl} target="_blank" className="card-link" rel="noreferrer">Deployed Application</a>
-                {gitUrl ? 
+                {deployUrl ? <a href={deployUrl} target="_blank" className="card-link" rel="noreferrer">Deployed Application</a>
+                    :
+                    <span className="p-0 text-muted card-link disabled">(Not currently deployed)</span>}
+                {gitUrl ?
                 <a href={gitUrl} target="_blank" className="card-link" rel="noreferrer">GitHub Repo</a>
                 : 
-                  // eslint-disable-next-line jsx-a11y/anchor-is-valid
-                  <a className="p-0 text-muted card-link disabled">(No Repo)</a> }
+                  <span className="p-0 text-muted card-link disabled">(No Repo)</span> }
 
             </div>
         </div>
