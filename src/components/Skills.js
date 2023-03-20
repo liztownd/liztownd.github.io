@@ -31,6 +31,7 @@ function Skills() {
                             <p className="card-text text-center text-muted">GraphQL</p>
                             <p className="card-text text-center text-muted">Apollo</p>
                             <p className="card-text text-center text-muted">Express</p>
+                            <p className="card-text text-center text-muted">Storybook</p>
                             <p className="card-text text-center text-muted">Single-SPA</p>
                             <p className="card-text text-center text-muted">MUI/Material-UI</p>
                             <p className="card-text text-center text-muted">Bootstrap</p>
@@ -45,6 +46,7 @@ function Skills() {
                             <hr className="75" />
                             <p className="card-text text-center text-muted">AWS Certified Cloud Practitioner</p>
                             <p className="card-text text-center text-muted">Azure DevOps</p>
+                            <p className="card-text text-center text-muted">Docker</p>
                             <p className="card-text text-center text-muted">Kubernetes</p>
                             <p className="card-text text-center text-muted">GitHub</p>
                             <p className="card-text text-center text-muted">WebStorm</p>
