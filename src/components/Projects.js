@@ -4,18 +4,18 @@ import ProjectCard from './ProjectCard';
 function Projects() {
     const [projects, setProjects] = useState([
         {
+            title: 'My Bookshelf',
+            image: 'assets/images/bookshelf-details.png',
+            description: 'A personal bookshelf powered by Google Books API. A user can create an account, save books to their private shelf, mark them as read or unread, filter, and rate their favorite books! User preferences and books are saved in a postgres database through the Ruby on Rails API backend.',
+            gitUrl: 'https://github.com/liztownd/mybookshelf',
+            deployUrl: 'https://liztownd.github.io/mybookshelf',
+        },
+        {
             title: 'devlr v2',
             image: 'assets/images/devlr2.png',
             description: 'devlr v2: devlr 1.0 Reactified: a social networking site for devs. MERN stack utilizing Context API and Reducer to manage state with brand new features: like & comment on posts, followers/following network, editable profiles, and more!',
             gitUrl: 'https://github.com/brandyquinlan/devlr',
             deployUrl: false,
-        },
-        {
-            title: 'React Employee Directory',
-            image: 'assets/images/sort.png',
-            description: 'A React Employee Directory, populated with data from the randomuser.me API using hooks for sort and filter functionality.',
-            gitUrl: 'https://github.com/liztownd/employee-directory',
-            deployUrl: 'https://liztownd.github.io/employee-directory/',
         },
         {
             title: 'devlr BETA',
@@ -24,7 +24,6 @@ function Projects() {
             gitUrl: 'https://github.com/liztownd/devlr',
             deployUrl: false,
         },
-
         {
             title: 'fanPagR',
             image: 'assets/images/fanPagR.png',
@@ -50,6 +49,13 @@ function Projects() {
 
     const allProj = [
         {
+            title: 'My Bookshelf',
+            image: 'assets/images/bookshelf-details.png',
+            description: 'A personal bookshelf powered by Google Books API. A user can create an account, save books to their private shelf, mark them as read or unread, filter, and rate their favorite books! User preferences and books are saved in a postgres database through the Ruby on Rails API backend.',
+            gitUrl: 'https://github.com/liztownd/mybookshelf',
+            deployUrl: 'https://liztownd.github.io/mybookshelf',
+        },
+        {
             title: 'React Employee Directory',
             image: 'assets/images/sort.png',
             description: 'A React Employee Directory, populated with data from the randomuser.me API using hooks for sort and filter functionality.',
@@ -64,11 +70,18 @@ function Projects() {
             deployUrl: 'https://www.alcottartscenter.org/',
         },
         {
-            title: 'devlr',
+            title: 'devlr v2',
+            image: 'assets/images/devlr2.png',
+            description: 'devlr v2: devlr 1.0 Reactified: a social networking site for devs. MERN stack utilizing Context API and Reducer to manage state with brand new features: like & comment on posts, followers/following network, editable profiles, and more!',
+            gitUrl: 'https://github.com/brandyquinlan/devlr',
+            deployUrl: false,
+        },
+        {
+            title: 'devlr BETA',
             image: 'assets/images/devlr.png',
-            description: 'Twitter + GitHub = devlr, a social networking site for devs. Express server used to deliver data from an SQL database and the GitHub API using jQuery, handlebars, and CSS variables to update content dynamically.',
+            description: 'devlr v1: Twitter + GitHub = devlr, a social networking site for devs. Express server used to deliver data from an SQL database and the GitHub API using jQuery, handlebars, and CSS variables to update content dynamically.',
             gitUrl: 'https://github.com/liztownd/devlr',
-            deployUrl: 'https://devlr.herokuapp.com',
+            deployUrl: false,
         },
         {
             title: 'Eat That Burger! App',

@@ -35,6 +35,7 @@ function Skills() {
                             <p className="card-text text-center text-muted">Single-SPA</p>
                             <p className="card-text text-center text-muted">MUI/Material-UI</p>
                             <p className="card-text text-center text-muted">Bootstrap</p>
+                            <p className="card-text text-center text-muted">Ruby on Rails</p>
                         </div>
                      </div>
                 </div>
